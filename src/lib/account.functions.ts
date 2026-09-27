@@ -321,7 +321,7 @@ export const getConversation = createServerFn({ method: "GET" })
         created_at: string;
         sender_id: string;
       }[],
-    } as {
+    } as unknown as {
       id: string;
       buyer_id: string;
       seller_id: string;
